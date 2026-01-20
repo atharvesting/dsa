@@ -3,3 +3,4 @@ CPP-MAIN.vcxproj.user
 .vscode/
 CPP-MAIN/
 x64/
+.env

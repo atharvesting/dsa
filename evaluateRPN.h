@@ -1,6 +1,7 @@
 /*
 @METADATA
-Problem: Evaluate Reverse Polish Notation
+Date: 2025-01-20
+Problem: Evaluate Reverse Polish Notation (Difficulty: Medium)
 Link: https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 Source: LeetCode (leetcode.com)
 Pattern: Stack
@@ -35,7 +36,7 @@ Method:
 - If it is the plus sign, then two numbers from the stack are popped, addition is done, and the 
 result is pushed back to that stack.
 - Else, the string is coverted into a number and pushed as well.
-Why: 
+Why it failed: 
 - The major problem with this program is that it lacks memory. It only works for the last operation done.
 - In order to support multiple operations, I must store the result of the previous operations in the stack. I do
 that, but in the end, I only return the value of result, which only stores the answer of the last operation done.

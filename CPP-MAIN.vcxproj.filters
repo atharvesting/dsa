@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPP-MAIN.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="singleNumber.h">
@@ -30,6 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="0_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pivotInt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

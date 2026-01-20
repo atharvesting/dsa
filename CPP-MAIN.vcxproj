@@ -127,11 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CPP-MAIN.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="singleNumber.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="evaluateRPN.h" />
+    <ClInclude Include="pivotInt.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="plusOne.h" />
     <ClInclude Include="0_template.h" />
   </ItemGroup>
