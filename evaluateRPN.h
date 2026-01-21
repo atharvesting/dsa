@@ -5,7 +5,7 @@ Problem: Evaluate Reverse Polish Notation (Difficulty: Medium)
 Link: https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 Source: LeetCode (leetcode.com)
 Pattern: Stack
-Publish: false
+Publish: true
 
 @JOURNEY
 At first, my mind immediately went to using [i-1] and [i-2] indices to access the previous elements, but quickly,

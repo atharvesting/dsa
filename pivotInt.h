@@ -5,7 +5,7 @@ Problem: Find the Pivot Integer (Difficulty: Easy)
 Link: https://leetcode.com/problems/find-the-pivot-integer/description/
 Source: LeetCode (leetcode.com)
 Pattern: NA
-Publish: false
+Publish: true
 
 @JOURNEY
 - As always, I thought of using brute force to solve the problem, where I would use nested loops to calculate the

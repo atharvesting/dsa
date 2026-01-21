@@ -131,6 +131,10 @@
     <ClCompile Include="singleNumber.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="divideInt.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="evaluateRPN.h" />
     <ClInclude Include="pivotInt.h">
       <SubType>

@@ -35,5 +35,8 @@
     <ClInclude Include="pivotInt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="divideInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
