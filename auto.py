@@ -77,7 +77,6 @@ config = types.GenerateContentConfig(
     temperature=0.85
 )
 
-
 def process_file(file_contents: str):
     response = client.models.generate_content(
         model="gemini-2.5-flash",
@@ -87,47 +86,35 @@ def process_file(file_contents: str):
     return response.text
 
 def iterate_repo():
+    success_files = []
     root = pathlib.Path(".")
     current_script = pathlib.Path(__file__).name
+    with open("published.txt", "r") as p: 
+        file_list = p.read()
+        
     for file_path in root.rglob("*.h"):
-        if file_path.is_file():
+        if file_path.is_file() and file_path.name not in file_list:
             try:
                 with open(file_path.name, "r", encoding="utf-8") as f:
                     file_content = f.read()
-                    if not re.search(r'publish:\s*true', file_content, re.IGNORECASE):
+                    if not re.search(r'publish:\s*(true|yes|1)', file_content, re.IGNORECASE):
                         continue
                 
                 blog_post = process_file(file_content)
                 
                 if blog_post:
-        
                     with open(f"post_{file_path.stem}.md", "w", encoding="utf-8") as o:
                         o.write(blog_post)
+                            
+                    success_files.append(file_path.name)
                         
             except Exception as e:
                 print(f"Failed to process {file_path.name}: {e}")
                 
+    if success_files:
+        with open("published.txt", "a") as p:
+            for name in success_files:
+                p.write(f"{name}\n")
+                
 if __name__ == "__main__":
     iterate_repo()
-                
-
-'''system_instruction = """
-Identity: Technical Writer.
-Tone & Style: Friendly but professional. Take inspiration from my personal writing style from the file contents.
-Rules:
-- Always output in markdown with appropriate headings and syntax.
-- Keep content under 500 words excluding metadata and all code.
-- Never use emojis.
-- Clear, blog-like structure.
-
-You will be provided the content of a single file which contains:
-- Final code for solving a DSA problem.
-- Documentation including metadata, journey, failures, successes complexity analyses, and learnings.
-
-File Structure:
-METADATA, jOURNEY, ITERATION_FAILED, ITERATION_SUCCESS, LEARNINGS, SOURCE CODE.
-
-You need to structure it properly as a blog that will be part of my personal DSA Diary, public to all.
-All necessary content will be provided in the documentation section of the file content. 
-No additional information must be sourced or added. Stay true to the source and ensure that my personality shines through, not an LLM's.
-"""'''

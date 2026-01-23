@@ -136,6 +136,10 @@
       </SubType>
     </ClInclude>
     <ClInclude Include="evaluateRPN.h" />
+    <ClInclude Include="minPairRemoveSortArray1.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
     <ClInclude Include="pivotInt.h">
       <SubType>
       </SubType>
