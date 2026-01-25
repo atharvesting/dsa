@@ -5,12 +5,11 @@ Problem:
 Link: 
 Source: 
 Pattern: 
+Type: Solve/Analyse
 Publish: false
 
 @JOURNEY
-I initially thought I needed a std::stack, but I haven't learned that header yet.
-I realized I could simulate the Last-In-First-Out (LIFO) behavior using a
-vector's push_back and pop_back methods.
+
 
 @ITERATION_FAILED
 Method: 

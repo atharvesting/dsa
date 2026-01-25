@@ -131,6 +131,7 @@
     <ClCompile Include="singleNumber.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="1_template.h" />
     <ClInclude Include="divideInt.h">
       <SubType>
       </SubType>

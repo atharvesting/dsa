@@ -41,5 +41,8 @@
     <ClInclude Include="minPairRemoveSortArray1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="1_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

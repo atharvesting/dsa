@@ -1,4 +1,3 @@
-//#include <iostream>
 #include <stdio.h>
 #define SIZE 5
 
@@ -7,7 +6,7 @@ void pop(int*, int*);
 void print_stack(int*, int, int*);
 
 int main() {
-	int test[SIZE] = { 0 }, limit = 0, *top, command, work;
+	int test[SIZE] = { 0 }, limit = 0, * top, command, work;
 	top = &limit;
 	do {
 		printf("\n");
@@ -16,28 +15,28 @@ int main() {
 		printf("Instruction: ");
 		scanf_s("%d", &command);
 		switch (command) {
-			case 1:
-				break;
-			case 2:
-				printf("Enter a number to push to stack: ");
-				scanf_s("%d", &work);
-				push(test, SIZE, top, work);
-				
-				break;
-			case 3:
-				pop(test, top);
-				break;
-			case 0:
-				printf("Successful Exit!\n");
-				break;
-			default:
-				printf("Invalid value entered.\n");
-				break;
+		case 1:
+			break;
+		case 2:
+			printf("Enter a number to push to stack: ");
+			scanf_s("%d", &work);
+			push(test, SIZE, top, work);
+
+			break;
+		case 3:
+			pop(test, top);
+			break;
+		case 0:
+			printf("Successful Exit!\n");
+			break;
+		default:
+			printf("Invalid value entered.\n");
+			break;
 		}
 
 	} while (command != 0);
 
-	
+
 	return 0;
 }
 
@@ -68,17 +67,5 @@ void print_stack(int* stack, int size, int* top) {
 		else {
 			printf("%d\n", *(stack + i));
 		}
-	} 
+	}
 }
-
-
-//int main() {
-//	std::vector<int> test = {5, 2, 3, 1};
-//	//int dvd = INT_MIN, dvs = -1;
-//	std::cout << "Answer iterations: " << minimumPairRemoval(test) << std::endl;
-//
-//	/*for (int num : test) {
-//		std::cout << num << " ";
-//	}*/
-//	return 0;
-//}
