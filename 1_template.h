@@ -5,7 +5,7 @@ Problem:
 Link: 
 Source: 
 Pattern: 
-Type: Solve/Analyse
+Type: Analyse
 Publish: false
 
 @GUIDELINES FOR ANALYSIS (Delete when analysis is completed)
@@ -20,28 +20,30 @@ Publish: false
 - Initial Observations
 - Pattern Indicators
 */
-
+#include <vector>
+#include <algorithm>
+#include <climits>
 /*
 @SOLUTION_1_(BASIC/BRUTE_FORCE)
-Complexity: Big-O, Θ, Ω
-	Time: 
-	Space: 
+Complexity:
+	Time: O() -> , Ω() -> , Θ()
+	Space: O() -> , Ω() -> , Θ()
 */
 
 
 /*
-@SOLUTION_1_(INTERMEDIATE)
-Complexity: Big-O, Θ, Ω
-	Time: 
-	Space: 
+@SOLUTION_2_(INTERMEDIATE)
+Complexity:
+	Time: O() -> , Ω() -> , Θ()
+	Space: O() -> , Ω() -> , Θ()
 */
 
 
 /*
-@SOLUTION_1_(ADVANCED/OPTIMAL)
-Complexity: Big-O, Θ, Ω
-	Time: 
-	Space: 
+@SOLUTION_3_(ADVANCED/OPTIMAL)
+Complexity:
+	Time: O() -> , Ω() -> , Θ()
+	Space: O() -> , Ω() -> , Θ()
 Algorithm Applications: 
 - 
 - 

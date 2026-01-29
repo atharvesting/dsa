@@ -5,7 +5,7 @@ Problem:
 Link: 
 Source: 
 Pattern: 
-Type: Solve/Analyse
+Type: Solve
 Publish: false
 
 @JOURNEY

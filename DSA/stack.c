@@ -6,7 +6,7 @@ void pop(int*, int*);
 void print_stack(int*, int, int*);
 
 int main() {
-	int test[SIZE] = { 0 }, limit = 0, * top, command, work;
+	int test[SIZE] = { 0 }, limit = 0, *top, command, work;
 	top = &limit;
 	do {
 		printf("\n");
@@ -21,7 +21,6 @@ int main() {
 			printf("Enter a number to push to stack: ");
 			scanf_s("%d", &work);
 			push(test, SIZE, top, work);
-
 			break;
 		case 3:
 			pop(test, top);
@@ -46,7 +45,7 @@ void push(int* stack, int size, int* top, int element) {
 		return;
 	}
 	*(stack + *top) = element;
-	(*top)++;
+	(*top)++;  // Parentheses necessary because precedence favours the increment operator.
 	printf("After Pushing: \n");
 }
 
