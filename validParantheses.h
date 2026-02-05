@@ -8,11 +8,6 @@ Pattern: Stack
 Type: Analyse
 Publish: false
 
-@GUIDELINES FOR ANALYSIS (Delete when analysis is completed)
-- Liberally comment the solutions for understanding.
-- Keep the broader implications of the solution in mind.
-- Tinker with each solution to understand the significance of each element.
-
 @PROBLEM STATEMENT
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 An input string is valid if:
@@ -60,28 +55,49 @@ bool brute_force(std::string s) {
 /*
 @SOLUTION_2_(ADVANCED/OPTIMAL)
 Complexity:
-	Time: O() -> , Ω() -> , Θ()
-	Space: O() -> , Ω() -> , Θ()
+	Time: O(n) -> Single traversal needed, Ω(1) -> If the string is empty/contains closing bracket to begin with, Θ(n)
+	Space: O(n) -> The stack stores n elements worst case (string only contains opening braces), Ω(1) -> Same reason as time omega, Θ(n)
 Algorithm Applications: 
-- 
-- 
+- Checking parentheses pairs in code editors.
+- Recursion: Deepmost call goes at the top of the stack.
+- Function calls: Most recent call goes at the top of the stack.
 */
 bool optimal(std::string s) {
-    std::stack<char> st;
+    std::stack<char> st;  // We track parentheses pairs using a stack, which only tracks opening brackets.
     for (auto i : s) {
-        if (i=='(' || i=='{' || i=='[') st.push(i);
+        if (i=='(' || i=='{' || i=='[') st.push(i); // We push an opening bracket into the stack.
         else {
+            /*
+            * For the sake of clarity:
+            *   - We reach this part when the character is not an opening bracket type! Which means that the next 
+            *     character must be closing bracket. More specifically, it SHOULD complete the bracket type sitting at the
+            *     top of the stack.
+            *   - We are bound to encounter an adjacent pair of parentheses ('()', '[]', '{}') in a valid string.
+            *
+            * We are checking for a few options if the character is not an opening bracket:
+            *   - If the stack is empty: This would mean that the string did not contain an opening bracket at the 
+            *     beginning of the string, which immediately makes the string invalid.
+            *   - If the next character in the string doesn't complete the bracket type at the top of the stack.
+            *     For example, Stack = '([(', Next character = ']' --> Here, the next character does not complete the bracket
+            *     at the top of the stack (rightmost element), which immediately makes the entire string invalid.
+            */
             if (st.empty() || (st.top()=='(' && i!=')') || (st.top()=='{' && i!='}') || (st.top()=='[' && i!=']')) return false;
-            st.pop();
+            
+            st.pop(); // The top element is popped only after making sure that the corresponding opening bracket is available next.
         }
     }
+    // If the string is valid, all opening bracket types will find their partners and thus, will all be popped out of the stack.
+    // If the stack is not empty, it means that one of the opening brackets did not meet its corresponding closing one.
     return st.empty();
 }
 
 /*
 @TRADEOFFS
--
+- The brute force algorithm is intuitive as it exploits a crucial condition but has bad time complexity.
+- The optimal algorithm uses extra space for the stack for better speed.
 
 @LEARNINGS
-- 
+- An essential problem-solving step is to recognise patterns, cases and conditions in the problem. 
+    - Start with closing bracket --> Immediately invalid.
+    - There must be at least one valid adjacent pair if the string is valid --> Main assumption.
 */

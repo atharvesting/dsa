@@ -63,7 +63,7 @@ Complexity:
 	Time: O(n) -> Only one loop needed, Ω(n) -> Single full loop necessary in best case as well, Θ()
 	Space: O(1) -> Constanty space used, Ω(1) -> Same as worst case, Θ(1)
 Algorithm Applications: 
-- Ainancial Markets: Finding most profitable streak in a volatile market.
+- Financial Markets: Finding most profitable streak in a volatile market.
 - Computer Vision: Can be used in maximum weight submatrix problems to detect bright spots.
 */
 int optimal(std::vector<int>& prices) {
