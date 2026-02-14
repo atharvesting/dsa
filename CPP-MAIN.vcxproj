@@ -147,6 +147,7 @@
     </ClInclude>
     <ClInclude Include="plusOne.h" />
     <ClInclude Include="0_template.h" />
+    <ClInclude Include="queueUsingStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

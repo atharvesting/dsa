@@ -14,7 +14,7 @@ The various operations include:
 struct Node {
 	int data;
 	struct Node* next;
-} *START = NULL, * p = NULL;
+} *START = NULL, *p = NULL;
 
 int c, q, size_ll = 0;
 
@@ -83,7 +83,7 @@ void insert_ll(void) {
 		if (c > 0 && c < size_ll) {
 			while (q != p) {
 				if (q == c) {
-
+					
 				}
 				p = p->next;
 				q++;

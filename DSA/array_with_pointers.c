@@ -94,6 +94,7 @@ int search_for(int* arr, int size, int target) {
 void update(int* arr, int size, int target_idx, int new_val) {
 	if (target_idx > size || target_idx < 0) {
 		printf("Invalid index chosen.");
+		return;
 	}
 	*(arr + target_idx) = new_val;
 }
