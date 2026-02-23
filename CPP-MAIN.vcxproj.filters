@@ -18,33 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="singleNumber.h">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="DSA\singly_circular_linked_list.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="plusOne.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="evaluateRPN.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="0_template.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="pivotInt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="divideInt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="minPairRemoveSortArray1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="1_template.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="queueUsingStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LCP\countPrimeSetBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LCP\allBinaryCodesSizeK.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

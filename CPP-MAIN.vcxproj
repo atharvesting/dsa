@@ -127,26 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DSA\singly_circular_linked_list.c" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="singleNumber.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_template.h" />
-    <ClInclude Include="divideInt.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="evaluateRPN.h" />
-    <ClInclude Include="minPairRemoveSortArray1.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="pivotInt.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="plusOne.h" />
     <ClInclude Include="0_template.h" />
+    <ClInclude Include="LCP\allBinaryCodesSizeK.h" />
+    <ClInclude Include="LCP\countPrimeSetBits.h" />
     <ClInclude Include="queueUsingStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
