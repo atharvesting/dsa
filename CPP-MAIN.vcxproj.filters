@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DSA\singly_circular_linked_list.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -27,15 +24,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="1_template.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="queueUsingStack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LCP\countPrimeSetBits.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LCP\allBinaryCodesSizeK.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
