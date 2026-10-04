@@ -4,3 +4,5 @@ CPP-MAIN.vcxproj.user
 CPP-MAIN/
 x64/
 .env
+build/
+.cache/
