@@ -1,2 +1,0 @@
-pivotInt.h
-evaluateRPN.h
