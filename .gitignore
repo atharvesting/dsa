@@ -6,3 +6,6 @@ x64/
 .env
 build/
 .cache/
+# CP quick-iterate scratch files (never commit test input / local output)
+in.txt
+out.txt
