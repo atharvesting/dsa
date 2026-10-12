@@ -10,7 +10,7 @@ struct ListNodeInt {
 	ListNodeInt(int val) : val(val), next(nullptr) {}
 };
 
-ListNodeInt* vector_to_LL(std::vector<int>& nums) {
+inline ListNodeInt* vector_to_LL(std::vector<int>& nums) {
 	if (nums.empty()) return nullptr;
 	ListNodeInt* START = nullptr, *q = nullptr;
 	START = new ListNodeInt(nums[0]);
@@ -32,7 +32,7 @@ struct ListNode {
 
 template <typename Container>
 auto container_to_LL(Container& collection) {
-	
+
 	using DataType = typename Container::value_type;
 	if (collection.empty()) return (ListNode<DataType>*)nullptr;
 
@@ -52,7 +52,7 @@ auto container_to_LL(Container& collection) {
 template <typename Container>
 void traverse_container(Container& collection) {
 	using DataType = typename Container::value_type;
-	
+
 	if (collection.empty()) return;
 
 	for (auto it = collection.begin(); it != collection.end(); it++) {
@@ -72,7 +72,7 @@ void traverse_LL(ListNode<T>* head) {
 }
 
 
-void traverse_LL_Int(ListNodeInt*& START) {
+inline void traverse_LL_Int(ListNodeInt*& START) {
 	if (START == nullptr) {
 		std::cout << "Linked List Empty!" << std::endl;
 		return;
