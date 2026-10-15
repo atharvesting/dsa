@@ -62,6 +62,14 @@ void traverse_container(Container& collection) {
 }
 
 template <typename T>
+void traverse_subvector(typename std::vector<T>::iterator start, typename std::vector<T>::iterator end) {
+    for (auto i = start; i != end; i++) {
+        std::cout << *i << " ";
+    }
+    std::cout << "\n";
+}
+
+template <typename T>
 void traverse_LL(ListNode<T>* head) {
 	ListNode<T>* current = head;
 	while (current != nullptr) {

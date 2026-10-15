@@ -2,22 +2,10 @@
 @METADATA
 Date: 2026-10-11
 Problem: 1903A - Halloumi Boxes
-Link:
-Source:
-Pattern:
+Link: https://codeforces.com/problemset/problem/1903/A
+Source: CF
+Pattern: Brute Force, Greedy
 Type: Solve
-
-@JOURNEY
-
-
-@ITERATION_FAILED
-Method:
-Why:
-
-@ITERATION_SUCCESS
-Method:
-Complexity:
-Why:
 */
 #pragma once
 #include <bits/stdc++.h>

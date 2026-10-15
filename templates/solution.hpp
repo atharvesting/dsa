@@ -22,6 +22,8 @@ Why:
 #pragma once
 #include <bits/stdc++.h>
 
+using namespace std;
+
 inline void solve() {
 
 }
