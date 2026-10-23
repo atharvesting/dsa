@@ -1,4 +1,4 @@
-#include "CF/1878A_how_much_does_daytona_cost.hpp"
+#include "CF/1866A_ambitious_kid.hpp"
 
 #include <iostream>
 #include <sys/resource.h>
