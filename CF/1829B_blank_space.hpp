@@ -1,7 +1,7 @@
 /*
 @METADATA
 Date: 2026-11-01
-Problem: 1829A - Blank Space
+Problem: 1829B - Blank Space
 Link: https://codeforces.com/problemset/problem/1829/B
 Source: CF
 Pattern: Implementation

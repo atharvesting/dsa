@@ -1,4 +1,4 @@
-#include "CF/1829A_blank_space.hpp"
+#include "CF/1806A_walking_master.hpp"
 
 #include <iostream>
 #include <sys/resource.h>
