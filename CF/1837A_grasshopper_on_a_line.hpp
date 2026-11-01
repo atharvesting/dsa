@@ -1,3 +1,12 @@
+/*
+@METADATA
+Date: 2026-10-31
+Problem: 1837A - Grasshopper on a Line
+Link: https://codeforces.com/problemset/problem/1837/A
+Source: CF
+Pattern: Math, Greedy
+Type: Solve
+*/
 #pragma once
 #include <bits/stdc++.h>
 
