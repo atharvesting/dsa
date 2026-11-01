@@ -36,8 +36,7 @@ inline void solve() {
         distance++;
         if (i == v[gas_idx]) {
             if (gas_idx > 0) gas_idx--;
-            if (distance > max_distance_bw_gas)
-                max_distance_bw_gas = distance;
+            if (distance > max_distance_bw_gas)---------------------------------------------------------------------------------------------------------------------------------------------+--+1   f
             distance = 0;
         }
     }
