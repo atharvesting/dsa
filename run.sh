@@ -5,6 +5,7 @@
 #           mirroring Codeforces compile flags; binary goes to build-perf/.
 set -e
 cd "$(dirname "$0")"
+python3 CF/gen_index.py
 if [ "${1:-}" = "perf" ]; then
   shift
   DIR=build-perf
