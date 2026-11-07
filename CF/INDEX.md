@@ -2,10 +2,11 @@
 
 Generated from each file's `@METADATA` block. `—` means the field is missing.
 
-## CP-31 / 800 (24)
+## CP-31 / 800 (25)
 
 | Problem | Type | Pattern | Date | File |
 |---|---|---|---|---|
+| [1783A - Make it Beautiful](https://codeforces.com/problemset/problem/1783/A) | CP-31 | Math, Sortings | 2026-11-07 | [1783A_make_it_beautiful.hpp](cp-31/800/1783A_make_it_beautiful.hpp) |
 | [1788A - One and Two](https://codeforces.com/problemset/problem/1788/A) | CP-31 | Brute Force, Math | 2026-11-06 | [1788A_one_and_two.hpp](cp-31/800/1788A_one_and_two.hpp) |
 | [1791C - Prepend and Append](https://codeforces.com/problemset/problem/1791/C) | CP-31 | Implementation, Two Pointers | 2026-11-02 | [1791C_prepend_and_append.hpp](cp-31/800/1791C_prepend_and_append.hpp) |
 | [1805A - We Need the Zero](https://codeforces.com/problemset/problem/1805/A) | CP-31 | Bitmask, Brute force | 2026-11-02 | [1805A_we_need_the_zero.hpp](cp-31/800/1805A_we_need_the_zero.hpp) |
@@ -31,7 +32,7 @@ Generated from each file's `@METADATA` block. `—` means the field is missing.
 | [1901A - Line Trip](https://codeforces.com/problemset/problem/1901/A) | CP-31 | Greedy, Math | 2026-10-12 | [1901A_line_trip.hpp](cp-31/800/1901A_line_trip.hpp) |
 | [1903A - Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | CP-31 | Brute Force, Greedy | 2026-10-11 | [1903A_halloumi_boxes.hpp](cp-31/800/1903A_halloumi_boxes.hpp) |
 
-## Contest (4)
+## Contest (5)
 
 | Problem | Type | Pattern | Date | File |
 |---|---|---|---|---|
@@ -39,6 +40,7 @@ Generated from each file's `@METADATA` block. `—` means the field is missing.
 | [2276A - Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | Contest | Greedy, Math | 2026-10-14 | [2276A_perfect_sandwiches.hpp](contest/2276A_perfect_sandwiches.hpp) |
 | [2283A - Numbers on the Board](https://codeforces.com/problemset/problem/2283/A) | Contest | Greedy, Math, Two Pointers | 2026-11-04 | [2283A_numbers_on_the_board.hpp](contest/2283A_numbers_on_the_board.hpp) |
 | [2283B - Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Contest | Brute Force, Number Theory | 2026-11-04 | [2283B_rhythmic_string.hpp](contest/2283B_rhythmic_string.hpp) |
+| 2284A_ | Solve | — | — | [2284A_.hpp](contest/2284A_.hpp) |
 
 ## Solve (5)
 
