@@ -7,7 +7,7 @@ Generated from each file's `@METADATA` block. `—` means the field is missing.
 | Problem | Type | Pattern | Date | File |
 |---|---|---|---|---|
 | [1766 - Extremely Round](https://codeforces.com/problemset/problem/1766/A) | CP-31 | Brute Force, Implementation | 2026-11-08 | [1766A_extremely_round.hpp](cp-31/800/1766A_extremely_round.hpp) |
-| [1777A - Everybody Likes Good Arrays](https://codeforces.com/problemset/problem/1777/A) | Solve | Greedy, Math | 2026-11-08 | [1777A_everybody_likes_good_arrays.hpp](cp-31/800/1777A_everybody_likes_good_arrays.hpp) |
+| [1777A - Everybody Likes Good Arrays](https://codeforces.com/problemset/problem/1777/A) | CP-31 | Greedy, Math | 2026-11-08 | [1777A_everybody_likes_good_arrays.hpp](cp-31/800/1777A_everybody_likes_good_arrays.hpp) |
 | [1783A - Make it Beautiful](https://codeforces.com/problemset/problem/1783/A) | CP-31 | Math, Sortings | 2026-11-07 | [1783A_make_it_beautiful.hpp](cp-31/800/1783A_make_it_beautiful.hpp) |
 | [1788A - One and Two](https://codeforces.com/problemset/problem/1788/A) | CP-31 | Brute Force, Math | 2026-11-06 | [1788A_one_and_two.hpp](cp-31/800/1788A_one_and_two.hpp) |
 | [1791C - Prepend and Append](https://codeforces.com/problemset/problem/1791/C) | CP-31 | Implementation, Two Pointers | 2026-11-02 | [1791C_prepend_and_append.hpp](cp-31/800/1791C_prepend_and_append.hpp) |

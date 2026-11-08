@@ -5,7 +5,7 @@ Problem: 1777A - Everybody Likes Good Arrays
 Link: https://codeforces.com/problemset/problem/1777/A
 Source: CF
 Pattern: Greedy, Math
-Type: Solve
+Type: CP-31
 */
 #pragma once
 #include <bits/stdc++.h>
