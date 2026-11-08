@@ -3,21 +3,9 @@
 Date:
 Problem:
 Link:
-Source:
+Source: CF
 Pattern:
-Type: Solve
-
-@JOURNEY
-
-
-@ITERATION_FAILED
-Method:
-Why:
-
-@ITERATION_SUCCESS
-Method:
-Complexity:
-Why:
+Type: CP-31/Solve/Contest
 */
 #pragma once
 #include <bits/stdc++.h>
@@ -25,7 +13,8 @@ Why:
 using namespace std;
 
 inline void solve() {
-
+    int n{0};
+    cin >> n;
 }
 
 inline void solution() {
