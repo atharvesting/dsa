@@ -2,10 +2,11 @@
 
 Generated from each file's `@METADATA` block. `—` means the field is missing.
 
-## CP-31 / 800 (27)
+## CP-31 / 800 (28)
 
 | Problem | Type | Pattern | Date | File |
 |---|---|---|---|---|
+| [1761 - Two Permutations](https://codeforces.com/problemset/problem/1761/A) | CP-31 | Brute Force, Constructive Algorithms | 2026-11-09 | [1761A_two_permutations.hpp](cp-31/800/1761A_two_permutations.hpp) |
 | [1766 - Extremely Round](https://codeforces.com/problemset/problem/1766/A) | CP-31 | Brute Force, Implementation | 2026-11-08 | [1766A_extremely_round.hpp](cp-31/800/1766A_extremely_round.hpp) |
 | [1777A - Everybody Likes Good Arrays](https://codeforces.com/problemset/problem/1777/A) | CP-31 | Greedy, Math | 2026-11-08 | [1777A_everybody_likes_good_arrays.hpp](cp-31/800/1777A_everybody_likes_good_arrays.hpp) |
 | [1783A - Make it Beautiful](https://codeforces.com/problemset/problem/1783/A) | CP-31 | Math, Sortings | 2026-11-07 | [1783A_make_it_beautiful.hpp](cp-31/800/1783A_make_it_beautiful.hpp) |
@@ -33,6 +34,12 @@ Generated from each file's `@METADATA` block. `—` means the field is missing.
 | [1900A - Cover in Water](https://codeforces.com/problemset/problem/1900/A) | CP-31 | Greedy | 2026-10-13 | [1900A_cover_in_water.hpp](cp-31/800/1900A_cover_in_water.hpp) |
 | [1901A - Line Trip](https://codeforces.com/problemset/problem/1901/A) | CP-31 | Greedy, Math | 2026-10-12 | [1901A_line_trip.hpp](cp-31/800/1901A_line_trip.hpp) |
 | [1903A - Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | CP-31 | Brute Force, Greedy | 2026-10-11 | [1903A_halloumi_boxes.hpp](cp-31/800/1903A_halloumi_boxes.hpp) |
+
+## CP-31 / 900 (1)
+
+| Problem | Type | Pattern | Date | File |
+|---|---|---|---|---|
+| [1904A - Forked!](https://codeforces.com/problemset/problem/1904/A) | CP-31 | Brute Force, Implementation | 2026-11-09 | [1904A_forked.hpp](cp-31/900/1904A_forked.hpp) |
 
 ## Contest (4)
 
