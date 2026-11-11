@@ -35,10 +35,12 @@ Generated from each file's `@METADATA` block. `—` means the field is missing.
 | [1901A - Line Trip](https://codeforces.com/problemset/problem/1901/A) | CP-31 | Greedy, Math | 2026-10-12 | [1901A_line_trip.hpp](cp-31/800/1901A_line_trip.hpp) |
 | [1903A - Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | CP-31 | Brute Force, Greedy | 2026-10-11 | [1903A_halloumi_boxes.hpp](cp-31/800/1903A_halloumi_boxes.hpp) |
 
-## CP-31 / 900 (1)
+## CP-31 / 900 (3)
 
 | Problem | Type | Pattern | Date | File |
 |---|---|---|---|---|
+| 1878C_vasilije_in_cacak | CP-31/Solve/Contest | — | — | [1878C_vasilije_in_cacak.hpp](cp-31/900/1878C_vasilije_in_cacak.hpp) |
+| [1883B - Chemistry](https://codeforces.com/problemset/problem/1883/B) | CP-31 | Strings | 2026-11-11 | [1883B_chemistry.hpp](cp-31/900/1883B_chemistry.hpp) |
 | [1904A - Forked!](https://codeforces.com/problemset/problem/1904/A) | CP-31 | Brute Force, Implementation | 2026-11-09 | [1904A_forked.hpp](cp-31/900/1904A_forked.hpp) |
 
 ## Contest (4)
