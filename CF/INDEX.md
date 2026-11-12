@@ -35,15 +35,17 @@ Generated from each file's `@METADATA` block. `—` means the field is missing.
 | [1901A - Line Trip](https://codeforces.com/problemset/problem/1901/A) | CP-31 | Greedy, Math | 2026-10-12 | [1901A_line_trip.hpp](cp-31/800/1901A_line_trip.hpp) |
 | [1903A - Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | CP-31 | Brute Force, Greedy | 2026-10-11 | [1903A_halloumi_boxes.hpp](cp-31/800/1903A_halloumi_boxes.hpp) |
 
-## CP-31 / 900 (3)
+## CP-31 / 900 (5)
 
 | Problem | Type | Pattern | Date | File |
 |---|---|---|---|---|
-| 1878C_vasilije_in_cacak | CP-31/Solve/Contest | — | — | [1878C_vasilije_in_cacak.hpp](cp-31/900/1878C_vasilije_in_cacak.hpp) |
+| 1869A_make_it_zero | CP-31/Solve/Contest | — | — | [1869A_make_it_zero.hpp](cp-31/900/1869A_make_it_zero.hpp) |
+| [1875A - Jellyfish and Undertale](https://codeforces.com/problemset/problem/1875/A) | CP-31 | Greedy, Brute Force | 2026-11-12 | [1875A_jellyfish_and_undertale.hpp](cp-31/900/1875A_jellyfish_and_undertale.hpp) |
+| [1878C - Vasilije in Cacak](https://codeforces.com/problemset/problem/1878/C) | CP-31 | Math | 2026-11-11 | [1878C_vasilije_in_cacak.hpp](cp-31/900/1878C_vasilije_in_cacak.hpp) |
 | [1883B - Chemistry](https://codeforces.com/problemset/problem/1883/B) | CP-31 | Strings | 2026-11-11 | [1883B_chemistry.hpp](cp-31/900/1883B_chemistry.hpp) |
 | [1904A - Forked!](https://codeforces.com/problemset/problem/1904/A) | CP-31 | Brute Force, Implementation | 2026-11-09 | [1904A_forked.hpp](cp-31/900/1904A_forked.hpp) |
 
-## Contest (4)
+## Contest (7)
 
 | Problem | Type | Pattern | Date | File |
 |---|---|---|---|---|
@@ -51,6 +53,9 @@ Generated from each file's `@METADATA` block. `—` means the field is missing.
 | [2276A - Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | Contest | Greedy, Math | 2026-10-14 | [2276A_perfect_sandwiches.hpp](contest/2276A_perfect_sandwiches.hpp) |
 | [2283A - Numbers on the Board](https://codeforces.com/problemset/problem/2283/A) | Contest | Greedy, Math, Two Pointers | 2026-11-04 | [2283A_numbers_on_the_board.hpp](contest/2283A_numbers_on_the_board.hpp) |
 | [2283B - Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Contest | Brute Force, Number Theory | 2026-11-04 | [2283B_rhythmic_string.hpp](contest/2283B_rhythmic_string.hpp) |
+| 2290A_three_piles | CP-31/Solve/Contest | — | — | [2290A_three_piles.hpp](contest/2290A_three_piles.hpp) |
+| 2290B_stubborn_pen | CP-31/Solve/Contest | — | — | [2290B_stubborn_pen.hpp](contest/2290B_stubborn_pen.hpp) |
+| 2290C_books_on_a_shelf | CP-31/Solve/Contest | — | — | [2290C_books_on_a_shelf.hpp](contest/2290C_books_on_a_shelf.hpp) |
 
 ## Solve (5)
 
